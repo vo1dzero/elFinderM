@@ -1,6 +1,6 @@
 {
 	"name": "elFinderM",
-	"version": "2.1.52m",
+	"version": "v1.0m-2.1.52",
 	"description": "File Manager for web, modded with a included Theme-Manager and User-Authentication. Written in JavaScript using jQuery and jQuery UI. Open-source.",
 	"author": "Studio-42 (https://github.com/Studio-42/elFinder)",
 	"contributors": "John Felber <m@j0hn.eu> (http://j0hn.eu)",
