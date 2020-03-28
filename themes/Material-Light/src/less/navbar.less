@@ -1,0 +1,49 @@
+/**
+ * Navbar
+ */
+.elfinder .elfinder-navbar {
+    background: @navbar-bg;
+    .box-shadow(0 1px 8px rgba(0, 0, 0, 0.6));
+    border: none;
+
+    .elfinder-lock,
+    .elfinder-perms,
+    .elfinder-symlink {
+        color: @navbar-perms-icon-color;
+        opacity: .8;
+    }
+}
+
+.elfinder-navbar-dir {
+    color: @navbar-dir-color;
+    cursor: pointer;
+    .border-radius(2px);
+    padding: 5px;
+    border: none;
+
+    .elfinder-navbar-icon {
+        color: @navbar-dir-icon-color;
+    }
+
+    &.ui-state-hover,
+    &.ui-state-active.ui-state-hover {
+        background: darken(@navbar-dir-bg-active, 2%);
+        color: @navbar-dir-color-hover;
+        border: none;
+
+        .elfinder-navbar-icon {
+            color: @navbar-dir-icon-color-hover;
+        }
+    }
+}
+
+.elfinder-navbar .ui-state-active,
+.elfinder-disabled .elfinder-navbar .ui-state-active {
+    background: @navbar-dir-bg-active;
+    color: @navbar-dir-color-active !important;
+    border: none;
+
+    &.elfinder-navbar-dir .elfinder-navbar-icon {
+        color: @navbar-dir-color-active !important;
+    }
+}

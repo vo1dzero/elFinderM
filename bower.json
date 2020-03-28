@@ -1,0 +1,32 @@
+{
+  "name": "elfinder-mod",
+  "authors": [
+	"John Felber <m@j0hn.eu>",
+    "Dmitry \"dio\" Levashov <dio@std42.ru>",
+    "Troex Nevelin <troex@fury.scancode.ru>",
+    "Alexey Sukhotin <strogg@yandex.ru>",
+    "Naoki Sawada <hypweb@gmail.com>"
+  ],
+  "description": "File Manager for web, modded with a included Theme-Manager and User-Authentication. Written in JavaScript using jQuery and jQuery UI. Open-source.",
+  "dependencies": {
+    "jquery": "1.8.0 - 3",
+    "jquery-ui": "^1.9.x"
+  },
+  "keywords": [
+    "filemanager",
+	"thememanager",
+	"elfinder",
+	"elfinder themes",
+    "jquery",
+    "jquery-ui",
+    "javascript",
+    "php"
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "http://john-felber.net",
+  "ignore": [
+    "**/.*",
+    "jquery",
+    "php"
+  ]
+}
